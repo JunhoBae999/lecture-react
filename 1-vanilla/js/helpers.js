@@ -35,7 +35,7 @@ export function emit(target, eventName, detail) {
 
 export function formatRelativeDate(date = new Date()) {
   const TEN_SECOND = 10 * 1000;
-  const A_MINUTE = 60 * 1000;
+  const A_MINUTE = 60 * 1000; 
   const A_HOUR = 60 * A_MINUTE;
   const A_DAY = 24 * A_HOUR;
 
